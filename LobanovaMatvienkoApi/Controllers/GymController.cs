@@ -27,7 +27,7 @@ namespace LobanovaMatvienkoApi.Controllers
             return await context.Gyms.ToListAsync();
         }
         /// <summary>
-        /// Получение данных по id зала
+        /// Получение списка всех данных по id зала
         /// </summary>
         /// <param name="id">Идентификатор</param>
         /// <returns></returns>
@@ -37,7 +37,7 @@ namespace LobanovaMatvienkoApi.Controllers
             GymContext context = _contextFactory.CreateDbContext();
             return await context.Gyms.FindAsync(id);
         }
-
+        
         /// <summary>
         /// Создание нового зала
         /// </summary>

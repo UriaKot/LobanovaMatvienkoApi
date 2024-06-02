@@ -4133,19 +4133,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Loban\\.nuget\\packages\\": {}
+    "C:\\Users\\79256\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Loban\\source\\repos\\LobanovaMatvienkoApi\\LobanovaMatvienkoApiHttpClient\\LobanovaMatvienkoApiHttpClient.csproj",
+      "projectUniqueName": "C:\\Users\\79256\\source\\repos\\pomosh\\LobanovaMatvienkoApiHttpClient\\LobanovaMatvienkoApiHttpClient.csproj",
       "projectName": "LobanovaMatvienkoApiHttpClient",
-      "projectPath": "C:\\Users\\Loban\\source\\repos\\LobanovaMatvienkoApi\\LobanovaMatvienkoApiHttpClient\\LobanovaMatvienkoApiHttpClient.csproj",
-      "packagesPath": "C:\\Users\\Loban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Loban\\source\\repos\\LobanovaMatvienkoApi\\LobanovaMatvienkoApiHttpClient\\obj\\",
+      "projectPath": "C:\\Users\\79256\\source\\repos\\pomosh\\LobanovaMatvienkoApiHttpClient\\LobanovaMatvienkoApiHttpClient.csproj",
+      "packagesPath": "C:\\Users\\79256\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\79256\\source\\repos\\pomosh\\LobanovaMatvienkoApiHttpClient\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Loban\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\79256\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4153,14 +4158,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Loban\\source\\repos\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi.csproj": {
-              "projectPath": "C:\\Users\\Loban\\source\\repos\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi.csproj"
+            "C:\\Users\\79256\\source\\repos\\pomosh\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi.csproj": {
+              "projectPath": "C:\\Users\\79256\\source\\repos\\pomosh\\LobanovaMatvienkoApi\\LobanovaMatvienkoApi.csproj"
             }
           }
         }
@@ -4203,7 +4209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
